@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../formation-développeur-web/mon-projet-scss"
+		},
+		{
+			"path": "../../../../../Downloads/disney"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mon-projet-scss"
+	}
+}

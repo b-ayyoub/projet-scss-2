@@ -1,0 +1,57 @@
+@use '../abstracts/variables' as *;
+
+@mixin nav {
+    text-decoration: none;
+    color: $color; 
+    border: solid 1px #c0c0c0;
+    line-height: 18px;
+    font-weight: 400;
+    padding-right: $padding-login-left;
+    padding-left: $padding-login-left;
+    padding-top: $padding-login-top;
+    padding-bottom: $padding-login-top;
+    font-size: $size-login;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+@mixin flex {
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    margin-right: 3%;
+}
+
+@mixin text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+@mixin black{
+    background-color: #2b2d37;
+    color: $color;
+    text-decoration: none;
+    padding: 2px 20px 2px 40px;
+    border-radius: 20px;
+    font-family: "avenirbook";
+    font-size: 10px;
+    line-height: 30px;
+    font-weight: 400;
+    position: absolute;
+    margin-left: 4rem;
+}
+
+@mixin blue{
+    background-color: blue;
+    color: $color;
+    text-decoration: none;
+    padding: 2px 20px 2px 20px;
+    border-radius: 20px;
+    font-family: "avenirbook";
+    font-size: 10px;
+    line-height: 30px;
+    font-weight: 400;
+    position: relative;
+    margin-right: 5rem;
+}

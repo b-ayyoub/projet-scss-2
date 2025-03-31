@@ -1,0 +1,66 @@
+@use '../base/reset-typography' as *;
+@use '../abstracts/variables' as *;
+@use '../base/typography' as *;
+@use '../base/reset' as *;
+@use '../abstracts/mixins' as *;
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #040714;
+
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    .cta-header{
+        display: flex;
+        justify-content: right;
+        margin-right: 3%;
+        a{
+            text-decoration: none;
+            color: $color; 
+            border: solid 1px #c0c0c0;
+            line-height: 18px;
+            font-weight: 400;
+            padding-right: $padding-login-left;
+            padding-left: $padding-login-left;
+            padding-top: $padding-login-top;
+            padding-bottom: $padding-login-top;
+            font-size: $size-login;
+            text-transform: uppercase;
+            margin-top: 10px;
+            font-family: "avenirbook";
+        }
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    header {
+        width: 100%;
+        position: absolute;
+        .cta-header{
+            display: flex;
+            justify-content: right;
+            margin-right: 10%;
+            a{
+                text-decoration: none;
+                color: $color; 
+                border: solid 1px #c0c0c0;
+                line-height: 18px;
+                font-weight: 400;
+                padding-right: $padding-login-left;
+                padding-left: $padding-login-left;
+                padding-top: $padding-login-top;
+                padding-bottom: $padding-login-top;
+                font-size: $size-login;
+                text-transform: uppercase;
+                margin-top: 10px;
+                font-family: "avenirbook";
+            }
+        }
+    }
+}
